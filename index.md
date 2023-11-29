@@ -18,7 +18,7 @@ This is not the first attempt at supporting MEI in MuseScore. Members of the MEI
 
 ## MEI Basic
 
-The goal is to provide "round trip" import and export of MEI from MuseScore. We are targeting the "MEI Basic" form of MEI, so called because it has been designed by the MEI community as a smaller, more limited subset of the larger MEI specification. MEI Basic is targeted at implementers of notation software for the purposes of supporting notation interchange. MEI v5, released in summer 2023, is the version of MEI that is read and written by MuseScore.
+The support in MuseScore is targeting the "MEI Basic" form of MEI, so called because it has been designed by the MEI community as a smaller, more limited subset of the larger MEI specification. MEI Basic is targeted at implementers of notation software for the purposes of supporting notation interchange. MEI v5, released in summer 2023, is the version of MEI that is read and written by MuseScore.
 
 ## Implementation
 
@@ -28,7 +28,7 @@ The MuseScore implementation includes a set of [MEI test units]({{ site.musescor
 
 ## About this documentation
 
-This documentation provides some information about the current status of the MEI support in MuseScore referencing the test units integrated in the MuseScore repository. In order to offer a direct visual impression of what each test unit is about, a rendering of them as obtained with the [Verovio](https://verovio.org) is included in the documentation. 
+This documentation provides some information about the current status of the MEI support in MuseScore referencing the test units integrated in the MuseScore repository. In order to offer a direct visual impression of what each test unit is about, a rendering of them as obtained with [Verovio](https://verovio.org) is included in the documentation. 
 
 {: .warning }
 Readers should keep in mind that the Verovio rendering is only to give an idea of the content of the test unit and that the rendering in MuseScore will never be exactly the same.
