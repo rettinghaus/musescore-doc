@@ -7,8 +7,6 @@ parent: "General structure"
 
 ## Transposing information
 
-Status ✅
-
 Transposing information is encoded in `staffDef@trans.diat` and `staffDef@trans.semi`
 
 Relevant tests:

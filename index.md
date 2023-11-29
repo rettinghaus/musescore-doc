@@ -4,7 +4,11 @@ layout: home
 nav_order: 1
 ---
 
-[MEI](https://music-encoding.org) support in MuseScore stated through a collaboration between the [Digital and Cognitive Musicology Lab (DCML)](https://github.com/DCMLab) at the École polytechnique fédérale de Lausanne (EPFL) and the [Répertoire international des sources musicales (RISM) Digital Center](https://rism.digital) in Bern, Switzerland.
+# MEI support in MuseScore
+
+[MEI](https://music-encoding.org) support in MuseScore started through a collaboration between the Digital and Cognitive Musicology Lab (DCML) at the École polytechnique fédérale de Lausanne (EPFL) and the Répertoire international des sources musicales (RISM) Digital Center in Bern, Switzerland.
+
+| [![DCML]({{ site.baseurl }}/assets/images/dcml.png)](https://github.com/DCMLab) | [![DCML]({{ site.baseurl }}/assets/images/rism-digital.png)](https://rism.digital) |
 
 ## Motivation
 
