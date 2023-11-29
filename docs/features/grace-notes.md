@@ -12,5 +12,5 @@ Grace notes are encoded as `graceGrp` with the appropriate `@attach` and `@grace
 For wider compatibility, MEI import also supports grace notes encoded without being wrapped within a `graceGrp`. One limitation of this approach is that ending grace notes are not supported. The grace notes will always be attached to the following `chord` or `note`, or ignored if appearing at the end of a measure.
 
 Relevant tests:
-* {% include test file="gracenote-01" %}
-* {% include test file="gracenote-02" %}
+{% include test file="gracenote-01" %}
+{% include test file="gracenote-02" %}

@@ -1,6 +1,7 @@
 title: MEI in MuseScore
 description: Documentation for MEI support in MuseScore
 theme: just-the-docs
+baseurl: "/mei-musescore-doc"
 
 url: https://lpugin.github.io/mei-musescore-doc
 

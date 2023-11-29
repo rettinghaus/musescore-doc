@@ -19,7 +19,7 @@ The distinction of the type of directive is encoded in the `dir@type` attribute.
 The style (normal or italic) and the position (above or below) is inferred from the type. A custom position in MuseScore is encoded in `@place`.
 
 Relevant tests:
-* {% include test file="dir-01" %}
+{% include test file="dir-01" %}
 
 Known limitations:
 * Text formatting within the directive is ignored.

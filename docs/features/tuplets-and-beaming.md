@@ -20,12 +20,12 @@ Beam modes in MuseScore (e.g., forcing the start of a new beam, or joining beams
 * 32nd sub beam as `note|rest|chord@type="mscore-beam-begin32"`
 
 Relevant tests:
-* {% include test file="beam-01" %}
-* {% include test file="beam-02" %}
-* {% include test file="beam-03" %}
-* {% include test file="tuplet-01" %}
-* {% include test file="tuplet-02" %}
-* {% include test file="tuplet-03" %}
+{% include test file="beam-01" %}
+{% include test file="beam-02" %}
+{% include test file="beam-03" %}
+{% include test file="tuplet-01" %}
+{% include test file="tuplet-02" %}
+{% include test file="tuplet-03" %}
 
 Known limitations:
 * Nested tuplets (tuplet within tuplet) are not supported.

@@ -16,10 +16,10 @@ Stemless notes are encoded with `@stem.len="0"`. (This could eventually be chang
 Cross-staff notation is encoded with `@staff` and the appropriate staff number value. It is supported for `chord`, `note` and `rest`. The staff displacement is constrained to one staff above or below since it seems there is not reason to allow for more than that.
 
 Relevant tests:
-* {% include test file="accid-01" %}
-* {% include test file="accid-02" %}
-* {% include test file="stem-01" %}
-* {% include test file="cross-staff-01" %}
+{% include test file="accid-01" %}
+{% include test file="accid-02" %}
+{% include test file="stem-01" %}
+{% include test file="cross-staff-01" %}
 
 Known limitations:
 * Enclosing accidentals are not supported (not available in MEI-Basic).

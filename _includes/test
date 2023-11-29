@@ -1,2 +1,10 @@
-{{ include.file }}.mei ([View MEI test file]({{ site.musescore_test }}{{ include.file }}.mei) or 
-[open in the Verovio Editor]({{ site.verovio_editor }}{{ site.musescore_raw }}{{ include.file }}.mei))
+
+| {{ include.file }} |
+|:-------------|
+| ![{{ include.file }}]({{ site.baseurl}}/tests/{{ include.file }}.mei.svg) |
+| [View MEI test file]({{ site.musescore_test }}{{ include.file }}.mei) or [open in the Verovio Editor]({{ site.verovio_editor }}{{ site.musescore_raw }}{{ include.file }}.mei) |
+
+
+
+
+

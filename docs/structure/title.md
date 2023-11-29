@@ -27,8 +27,8 @@ The `pgHead` is organized in `<rend>` elements (up to 9) representing positions 
 Text element on multiple lines is supported will be encoded as mixed content and `lb`.
 
 Relevant tests:
-* {% include test file="page-head-01" %}
-* {% include test file="page-head-02" %}
+{% include test file="page-head-01" %}
+{% include test file="page-head-02" %}
 
 Known limitations:
 * Text formatting (i.e., italic, bold, etc.) within a text element is currently not preserved.

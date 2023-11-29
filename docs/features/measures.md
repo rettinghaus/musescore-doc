@@ -16,8 +16,8 @@ MuseScore also has the option of adding a number to the measure count. The value
 For end barlines with a repetition, the number of sounding repetitions given in MuseScore is encoded as `@type="mscore-repeat-n` where `n` is the value of the repeat parameter in MuseScore.
 
 Relevant tests:
-* {% include test file="measure-01" %}
-* {% include test file="measure-02" %}
+{% include test file="measure-01" %}
+{% include test file="measure-02" %}
 
 Known limitations: 
 * The MuseScore barline type `Reverse final` does not exist in MEI, it is exported as double `dbl` barline.

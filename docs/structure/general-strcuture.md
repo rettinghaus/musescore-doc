@@ -14,8 +14,8 @@ Since there is not direct mapping of  part structure from MuseScore within the M
 Bracket supported are `bracket`, `brace`, `bracketsq` and `line`.
 
 Relevant tests:
-* {% include test file="score-01" %}
-* {% include test file="score-02" %}
+{% include test file="score-01" %}
+{% include test file="score-02" %}
 
 Known limitations:
 * Bar line spanning in MuseScore is defined on a staff level. In MEI, this is defined through `staffGrp@bar.thru`. The current implementation, the value for `@bar.thru` is determined by the spanning of the first staff, and only for the first level of nesting `staffGrp`. 

@@ -18,9 +18,9 @@ An additional `@type` attribute is used to encoded the specific MuseScore type. 
 * `repeatMark@type="mscore-jump-dc-al-double-coda` for the MuseScore jump D.C. al Double Coda.
 
 Relevant tests:
-* {% include test file="ending-01" %}
-* {% include test file="jump-01" %}
-* {% include test file="jump-02" %}
+{% include test file="ending-01" %}
+{% include test file="jump-01" %}
+{% include test file="jump-02" %}
 
 Known limitations:
 * For Jump, values for jumpTo, playUntil and continueAt are not exported and default values are assume during import. Similarly, the default value for label is used for Marker during import.

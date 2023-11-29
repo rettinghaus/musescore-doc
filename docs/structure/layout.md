@@ -14,4 +14,4 @@ When writing, all page and line (system) breaks are encoded into the MEI. The on
 When reading the MEI, only `pb` and `sb` with `@type="mscore-manual` are set as page and line breaks and all the others are ignored.
 
 Relevant tests:
-* {% include test file="breaks-01" %}
+{% include test file="breaks-01" %}

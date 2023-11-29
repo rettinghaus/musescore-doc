@@ -21,8 +21,8 @@ Import with `@tstamp` encoded breath and caesura works as long as as correspondi
 Import of fermata, breath and caesura with `glyph.num` is also supported.
 
 Relevant tests:
-* {% include test file="fermata-01" %}
-* {% include test file="breath-01" %}
+{% include test file="fermata-01" %}
+{% include test file="breath-01" %}
 
 Known limitations:
 * The vertical position of a breath and caesura is different (lower) after import.

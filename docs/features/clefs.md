@@ -8,4 +8,4 @@ parent: "Features"
 ## Clefs
 
 Relevant tests:
-* {% include test file="clef-01" %}
+{% include test file="clef-01" %}

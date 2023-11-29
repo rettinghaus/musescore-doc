@@ -12,4 +12,4 @@ Status ✅
 Transposing information is encoded in `staffDef@trans.diat` and `staffDef@trans.semi`
 
 Relevant tests:
-* {% include test file="transpose-01" %}
+{% include test file="transpose-01" %}
