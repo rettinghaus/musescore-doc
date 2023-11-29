@@ -2,7 +2,7 @@
 | {{ include.file }} |
 |:-------------|
 | ![{{ include.file }}]({{ site.baseurl}}/tests/{{ include.file }}.mei.svg) |
-| [View MEI test file]({{ site.musescore_test }}{{ include.file }}.mei) or [open in the Verovio Editor]({{ site.verovio_editor }}{{ site.musescore_raw }}{{ include.file }}.mei) |
+| <a href="https://github.com/musescore/MuseScore/raw/master/src/importexport/mei/tests/data/chord-label-01.mscx" download>Download the MuseScore file</a> \| [View MEI file]({{ site.musescore_test }}{{ include.file }}.mei) \| [open in the Verovio Editor]({{ site.verovio_editor }}{{ site.musescore_raw }}{{ include.file }}.mei) |
 
 
 
