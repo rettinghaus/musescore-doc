@@ -1,9 +1,9 @@
 title: MEI in MuseScore
 description: Documentation for MEI support in MuseScore
 theme: just-the-docs
-baseurl: "/mei-musescore-doc"
+baseurl: "/musescore-doc"
 
-url: https://lpugin.github.io/mei-musescore-doc
+url: https://music-encoding.github.io/musescore-doc
 
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
@@ -13,7 +13,7 @@ logo: "assets/images/mei-musescore.png"
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/lpugin/mei-musescore-doc" # the github URL for your repo
+gh_edit_repository: "https://github.com/music-encoding/musescore-doc" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
