@@ -12,7 +12,7 @@ nav_order: 1
 
 ## Motivation
 
-One of the main areas of research within the DCML is corpus studies, using large amounts of encoded notation. They maintain a large number of encodings entered using MuseScore, but are using the MEI format in their analysis and publishing toolchain. The current workflow of exporting to MusicXML and then converting to MEI has resulted in a number of problems in the quality of their analysis data, due in some part to ambiguities in the MusicXML format itself. A direct export to MEI from MuseScore will resolve these issues.
+One of the main areas of research within the DCML is corpus studies, using large amounts of encoded notation. They maintain a large number of encodings entered in MuseScore, but are also using the MEI format in their analysis and publishing toolchain. The current workflow, which often imports MusicXML and then converts it to MEI or MuseScore, has impeded the growth of high-quality corpora, partly due to certain ambiguities within the MusicXML format itself. A direct conversion method between MEI and MuseScore will resolve these issues.
 
 This is not the first attempt at supporting MEI in MuseScore. Members of the MEI community met with MuseScore developers in 2011, and again in 2013, where there was some support by the MuseScore development team but predicated on the MEI community providing funding for developing the software. Despite several efforts, including an unsuccessful Google Summer of Code application in 2021, this funding was not available. In the spring of 2023 some funding was made available through the DCML, and the project was launched as a partnership between the RISM Digital Center and DCML.
 
