@@ -53,3 +53,8 @@ Relevant tests:
 
 Relevant tests:
 {% include test file="pedal-01" %}
+
+### Bow tremolo
+
+Relevant tests:
+{% include test file="btrem-01" %}
