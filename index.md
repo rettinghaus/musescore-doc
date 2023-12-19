@@ -32,3 +32,7 @@ This documentation provides some information about the current status of the MEI
 
 {: .warning }
 Readers should keep in mind that the Verovio rendering is only to give an idea of the content of the test unit and that the rendering in MuseScore will never be exactly the same.
+
+## Feedback, questions or issues?
+
+Please feel free to contact us at [info@rism.digital](info@rism.digital) for any questions. If you have any issues when importing or exporting files and cannot find information in this documentation, you can also open an issue on our [fork of the MuseScore repository](https://github.com/rism-digital/MuseScore/issues).
