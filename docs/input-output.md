@@ -6,9 +6,9 @@ nav_order: 2
 
 Import and export in integrated in MuseScore (as of version 4.2). File opening and file saving follows the same workflow as for other external file formats (e.g., MusicXML).
 
-## File opening 
+## File opening
 
-MEI files can be imported from the `Open...` menu with a selection of `*.mei` files: 
+MEI files can be imported from the `Open...` menu with a selection of `*.mei` files:
 
 <img width="639" alt="image" src="https://github.com/rism-digital/MuseScore/assets/689412/397c3e8c-ce50-4c63-a4f6-bd369851c092">
 
@@ -20,15 +20,13 @@ The `Preferences` dialog includes a MEI checkbox option `Import MEI layout` in t
 
 <img width="881" alt="image" src="https://github.com/rism-digital/MuseScore/assets/689412/bd71e7cf-f148-4b03-9f8c-10c021cbb58c">
 
-## File saving 
-
+## File saving
 
 MEI files can be saved through the `Export...` menu that includes an MEI section. The MEI section includes an option `Include page and system breaks` as well as the standard part extraction option:
 
 <img width="804" alt="image" src="https://github.com/rism-digital/MuseScore/assets/689412/cc2bf69b-baa9-4316-a237-b70b6b533767">
 
-## User feedback 
-
+## User feedback
 
 When possible, some feedback is provided when features cannot be imported. The feedback is shown in dialog that allows for the process to be continued if desirable:
 
@@ -36,10 +34,10 @@ When possible, some feedback is provided when features cannot be imported. The f
 
 Additional lower-level feedback might be provided in the logs
 
-## Metadata 
-
+## Metadata
 
 The following metadata tags from the score properties are exported to the MEI header:
+
 * Work title
 * Arranger
 * Composer
@@ -69,7 +67,7 @@ The following metadata tags from the score properties are exported to the MEI he
 </meiHead>
 ```
 
-{: .warning } 
+{: .warning }
 The tags `Creation date`, `Platform` and `Source` are currently **not preserved** since no appropriate place in MEI-Basic has been found
 
 When importing and MEI file, the values in the MEI header (if found) as set back as score properties. The entire MEI header is also preserved. When exporting again to MEI, the original header is re-exported as such and the score properties are ignored. However, the original MEI header can be deleted from the score properties dialog.
@@ -79,13 +77,15 @@ When importing and MEI file, the values in the MEI header (if found) as set back
 The conversion from and to MEI through the MuseScore is possible with standard MuseScore command-line options.
 
 For example, converting a MuseScore file to MEI:
+
 ```bash
 mscore file.mscz -o file.mei
 ```
 
-Converting and MEI file to MuseScore:
+Converting an MEI file to MuseScore:
+
 ```bash
 mscore file.mei -o file.mscz
 ```
 
-The option `-f` can also be added to by-pass score corruption warnings. 
+The option `-f` can also be added to by-pass score corruption warnings.

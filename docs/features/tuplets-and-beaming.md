@@ -28,6 +28,6 @@ Relevant tests:
 {% include test file="tuplet-03" %}
 
 Known limitations:
+
 * Nested tuplets (tuplet within tuplet) are not supported.
-* Since `@breaksec` is not available in MEI-Basic, these are represented with the `@type` attribute. This can be changed if eventually `@breaksec` is added to MEI-Basic
 * Feathered beams are not supported.
