@@ -22,13 +22,11 @@ The `Preferences` dialog includes a MEI checkbox option `Import MEI layout` in t
 
 ## File saving
 
-
 MEI files can be saved through the `Export...` menu that includes an MEI section. The MEI section includes an option `Include page and system breaks` as well as the standard part extraction option:
 
 <img width="804" alt="image" src="https://github.com/rism-digital/MuseScore/assets/689412/cc2bf69b-baa9-4316-a237-b70b6b533767">
 
 ## User feedback
-
 
 When possible, some feedback is provided when features cannot be imported. The feedback is shown in dialog that allows for the process to be continued if desirable:
 
@@ -38,8 +36,8 @@ Additional lower-level feedback might be provided in the logs
 
 ## Metadata
 
-
 The following metadata tags from the score properties are exported to the MEI header:
+
 * Work title
 * Arranger
 * Composer
