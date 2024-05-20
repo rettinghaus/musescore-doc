@@ -15,9 +15,8 @@ Some elements that do not have a corresponding MuseScore object have no `@xml:id
 
 * `accid`
 * `beam`
-* `gracegrp`
+* `graceGrp`
 * `syl`
-* `verse`
 
 It is also the case for `scoreDef` and its content as well as `section`, `staff`, `layer`.
 
