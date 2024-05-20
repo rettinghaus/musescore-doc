@@ -59,9 +59,6 @@ The following metadata tags from the score properties are exported to the MEI he
         </titleStmt>
         <pubStmt>
             <date isodate="2023-05-09-14:34:46" />
-            <availability>
-                <distributor>CC-By</distributor>
-            </availability>
         </pubStmt>
     </fileDesc>
 </meiHead>
