@@ -58,3 +58,8 @@ Relevant tests:
 
 Relevant tests:
 {% include test file="btrem-01" %}
+
+### Colors
+
+Relevant tests:
+{% include test file="color-01" %}
