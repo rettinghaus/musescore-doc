@@ -2,12 +2,13 @@
 
 This repository holds the content of a static website documenting the MEI support in [MuseScore](https://musescore.org).
 
-The website is accessible at https://music-encoding.org/musescore-doc
+The website is accessible at <https://music-encoding.org/musescore-doc>.
 
 ## Examples
 
 The example images in `./tests` have been generated with [Verovio](https://verovio.org) with the command:
-```bash
+
+```shell
 verovio --adjust-page-height -o test-file.mei.svg test-file.mei
 ```
 

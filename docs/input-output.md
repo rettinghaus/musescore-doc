@@ -75,13 +75,13 @@ The conversion from and to MEI through the MuseScore is possible with standard M
 
 For example, converting a MuseScore file to MEI:
 
-```bash
+```shell
 mscore file.mscz -o file.mei
 ```
 
 Converting an MEI file to MuseScore:
 
-```bash
+```shell
 mscore file.mei -o file.mscz
 ```
 
