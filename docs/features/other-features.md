@@ -10,7 +10,7 @@ parent: "Features"
 ### Ottava lines
 
 Relevant tests:
-{% include test file="octava-01" %}
+{% include test file="octave-01" %}
 
 ### Hairpins
 
