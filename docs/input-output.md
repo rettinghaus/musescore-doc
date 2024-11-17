@@ -39,6 +39,7 @@ Additional lower-level feedback might be provided in the logs
 The following metadata tags from the score properties are exported to the MEI header:
 
 * Work title
+* Subtitle
 * Arranger
 * Composer
 * Copyright
@@ -49,7 +50,8 @@ The following metadata tags from the score properties are exported to the MEI he
 <meiHead>
     <fileDesc>
         <titleStmt>
-            <title>Work title</title>
+            <title type="main">Work title</title>
+            <title type="subordinate">Subtitle</title>
             <respStmt>
                 <persName role="arranger">Arranger is me</persName>
                 <persName role="composer">Composer is me</persName>
