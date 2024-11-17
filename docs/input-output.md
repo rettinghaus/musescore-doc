@@ -67,11 +67,11 @@ The following metadata tags from the score properties are exported to the MEI he
 {: .warning }
 The tags `Creation date`, `Platform` and `Source` are currently **not preserved** since no appropriate place in MEI-Basic has been found
 
-When importing and MEI file, the values in the MEI header (if found) as set back as score properties. The entire MEI header is also preserved. When exporting again to MEI, the original header is re-exported as such and the score properties are ignored. However, the original MEI header can be deleted from the score properties dialog.
+When importing an MEI file, the values in the MEI header (if found) as set back as score properties. The entire MEI header is also preserved. When exporting again to MEI, the original header is re-exported as such and the score properties are ignored. However, the original MEI header can be deleted from the score properties dialog.
 
 ## Command-line
 
-The conversion from and to MEI through the MuseScore is possible with standard MuseScore command-line options.
+The conversion from and to MEI through MuseScore is possible with standard MuseScore command-line options.
 
 For example, converting a MuseScore file to MEI:
 
