@@ -10,7 +10,7 @@ parent: "Features"
 ### Ottava lines
 
 Relevant tests:
-{% include test file="octava-01" %}
+{% include test file="octave-01" %}
 
 ### Hairpins
 
@@ -58,3 +58,13 @@ Relevant tests:
 
 Relevant tests:
 {% include test file="btrem-01" %}
+
+### Measure Repeat
+
+Relevant tests:
+{% include test file="measure-repeat-01" %}
+
+### Colors
+
+Relevant tests:
+{% include test file="color-01" %}
