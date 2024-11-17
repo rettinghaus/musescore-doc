@@ -17,4 +17,5 @@ Relevant tests:
 {% include test file="tie-01" %}
 
 Known limitations:
-* The is no distinction in the export between dashed and wide-dashed slur and both are exported with `@lform="dashed"`.
+
+* There is no distinction in the export between dashed and wide-dashed slur and both are exported with `@lform="dashed"`.
