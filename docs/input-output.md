@@ -36,7 +36,7 @@ Additional lower-level feedback might be provided in the logs
 
 ## Metadata
 
-The following metadata tags from the score properties are exported to the MEI header:
+The following metadata tags from the [Project properties](https://musescore.org/en/handbook/4/project-properties) are exported to the MEI header:
 
 * Work title
 * Subtitle
