@@ -59,6 +59,11 @@ Relevant tests:
 Relevant tests:
 {% include test file="btrem-01" %}
 
+### Measure Repeat
+
+Relevant tests:
+{% include test file="measure-repeat-01" %}
+
 ### Colors
 
 Relevant tests:
